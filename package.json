@@ -1,0 +1,44 @@
+{
+  "name": "parcelstarter",
+  "version": "1.0.0",
+  "description": "This is now a developer environment starter template featuring Parcel, Nodejs, bootstrap, jQuery , Font Awesome 5, Parcel bundler, postcss module and SCSS compilation included.",
+  "main": "./src/assets/js/bundle.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-riaz/Template.git"
+  },
+  "keywords": [
+    "template",
+    "parcel",
+    "starter",
+    "pack",
+    "npm",
+    "devenvironment"
+  ],
+  "author": "md-riaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/md-riaz/Template/issues"
+  },
+  "homepage": "https://github.com/md-riaz/Template#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0-9",
+    "autoprefixer": "^9.8.5",
+    "bootstrap": "^5.0.0-alpha1",
+    "css": "^3.0.0",
+    "jquery": "^3.5.1",
+    "js": "^0.1.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-imagemin": "^4.0.1",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "postcss-modules": "^3.2.0",
+    "sass": "^1.26.10"
+  }
+}
