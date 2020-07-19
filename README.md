@@ -10,3 +10,4 @@ This is now a developer environment starter template featuring Parcel, Nodejs, b
 #### Warning
 
 - don't import scss or css file to main bundle.js because it won't render css to other html files. So scss file should be linked to every html file with link tag.
+- only fontawesome 5 scss file will be imported with bundle.js
