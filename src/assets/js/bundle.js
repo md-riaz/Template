@@ -28,9 +28,18 @@ $(function () {
   let setVHunit = () => {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
-    console.log(vh);
+    console.log(
+      `viewport height: ${vh}`,
+      `Usage:   
+       height: 100vh;
+       height: calc(var(--vh, 1vh) * 100);`
+    );
   };
+  setVHunit();
+
   window.addEventListener("resize", () => {
     setVHunit();
   });
+
+  /* Other functions */
 });
