@@ -6,7 +6,8 @@ This is now a developer environment starter template featuring Parcel, Nodejs, b
 
 - need to config bootstrap scss file on `_imports.scss`
 - js will be imported on `bundle.js` file and css/scss/sass files will be imported on `_imports.scss` file
-- if localhost doesn't load index page then on `npm run dev` command files can be accessed with http://localhost:1234/page.html
+- if localhost doesn't load index page then on `npm run dev` command files can be accessed with localhost:1234/page.html
+- image quality need to set on `src/imagemin.config` file for minification/optimization on final build
 
 #### Warning
 
