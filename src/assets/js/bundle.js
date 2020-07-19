@@ -12,12 +12,6 @@ import style from "../scss/style.scss"; // import main scss file for compilation
 // jquery countdown plugin
 // require("../../../node_modules/jquery-countdown/dist/jquery.countdown");
 
-/* importing Font Awesome 5  all scss files */
-import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
-import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-
 /* =============== */
 /* MAIN FUNCTIONS */
 /* =============== */
