@@ -5,11 +5,13 @@
   -webkit-line-clamp: $line;
   -webkit-box-orient: vertical;
 }
+
 // custom scrollbar mixin
 @mixin scrollbars(
   $size,
   $foreground-color,
-  $background-color: mix($foreground-color, white, 50%)
+  $background-color: mix($foreground-color, white, 50%),
+  $border-radius: 0px
 ) {
   // For Google Chrome
   &::-webkit-scrollbar {
@@ -19,6 +21,7 @@
 
   &::-webkit-scrollbar-thumb {
     background: $foreground-color;
+    border-radius: $border-radius;
   }
 
   &::-webkit-scrollbar-track {
@@ -33,4 +36,4 @@
 }
 
 //usage
-// @include scrollbars(10px, thumbColor, trackColor);
+// @include scrollbars(10px, thumbColor, trackColor, trackBorderRadius);
