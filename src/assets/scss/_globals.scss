@@ -1,0 +1,7 @@
+//for debug
+img:not([loading]) {
+  outline: 10px solid red;
+}
+img[alt=""] {
+  outline: 10px solid blue;
+}
