@@ -9,9 +9,8 @@ if (module.hot) {
 window.$ = window.jQuery = require("jquery"); //import jQuery globaly
 import bootstrap from "bootstrap"; // import bootstrap js (scss on scss file)
 import style from "../scss/style.scss"; // import main scss file for compilation
-// jquery countdown plugin
-// require("../../../node_modules/jquery-countdown/dist/jquery.countdown");
-
+//to import js plugins
+// const plugin_name = require("plugin-name");
 /* =============== */
 /* MAIN FUNCTIONS */
 /* =============== */

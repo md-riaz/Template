@@ -5,3 +5,6 @@ img:not([loading]) {
 img[alt=""] {
   outline: 10px solid blue;
 }
+img:not(.img-fluid) {
+  outline: 10px solid red;
+}
